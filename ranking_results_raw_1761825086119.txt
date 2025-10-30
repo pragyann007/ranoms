@@ -1,0 +1,27 @@
+```json
+{
+  "job_match_summary": "Based on the job description, all three candidates have relevant experience in system design, architecture patterns, cloud technologies, and leadership skills. However, Candidate 2 has the most extensive experience in leading teams and delivering high-quality, scalable cloud-based software products, making them the top candidate for the System Architect position.",
+  "rankings": [
+    {
+      "candidate": "Candidate 2",
+      "filename": "resume2.pdf",
+      "score": 9,
+      "reason": "Candidate 2 has 11+ years of experience in leading teams and delivering high-quality, scalable cloud-based software products, making them the top candidate for the System Architect position. They have a strong background in software architecture, design patterns, and cloud technologies, and have led teams to deliver complex projects on time and under budget."
+    },
+    {
+      "candidate": "Candidate 1",
+      "filename": "resume1.pdf",
+      "score": 7,
+      "reason": "Candidate 1 has experience in system design, architecture patterns, and cloud technologies, but their experience is more focused on front-end development and MERN stack. They have a strong background in JavaScript and have worked on several projects, but may not have the same level of experience as Candidate 2 in leading teams and delivering high-quality software products."
+    },
+    {
+      "candidate": "Candidate 3",
+      "filename": "resume3.pdf",
+      "score": 4,
+      "reason": "Candidate 3 has limited experience in system design, architecture patterns, and cloud technologies, and lacks the leadership experience and delivery track record of Candidates 1 and 2. They have a strong background in front-end development, but may not have the necessary skills and experience to excel in the System Architect position."
+    }
+  ],
+  "best_candidate": "Candidate 2",
+  "best_candidate_filename": "resume2.pdf"
+}
+```

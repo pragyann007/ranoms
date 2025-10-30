@@ -3,8 +3,9 @@ import dotenv from "dotenv"
 import cookieParser from "cookie-parser";
 import { careerRouter } from "./routes/carearGuide.routes.js";
 import { resumeRouter } from "./routes/resumeBuilder.routes.js";
+import { connectDb } from "./config/db.config.js";
 dotenv.config();
-
+connectDb();
 const app = express();
 const port = process.env.PORT  || 4000 
 

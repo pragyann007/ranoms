@@ -1,0 +1,27 @@
+```json
+{
+  "job_match_summary": "Based on the job description, the top candidate for the graphic designer position is Candidate 1, followed by Candidate 2 and Candidate 3. Candidate 1 has the most relevant experience in front-end development and design, while Candidate 2 has a strong background in software architecture and design. Candidate 3 has some relevant experience in web development, but lacks the depth of experience in graphic design.",
+  "rankings": [
+    {
+      "candidate": "Candidate 1",
+      "filename": "resume1.pdf",
+      "score": 8,
+      "reason": "Candidate 1 has extensive experience in front-end development and design, with a strong portfolio of projects that demonstrate their skills in creating visually appealing and user-friendly interfaces. Their experience with MERN stack, React, and Redux Toolkit makes them a strong candidate for the graphic designer position."
+    },
+    {
+      "candidate": "Candidate 2",
+      "filename": "resume2.pdf",
+      "score": 6,
+      "reason": "Candidate 2 has a strong background in software architecture and design, with experience in leading teams and delivering high-quality software products. However, their experience is more focused on software development than graphic design."
+    },
+    {
+      "candidate": "Candidate 3",
+      "filename": "resume3.pdf",
+      "score": 4,
+      "reason": "Candidate 3 has some relevant experience in web development, but lacks the depth of experience in graphic design. Their portfolio is limited, and they do not have any notable projects that demonstrate their skills in this area."
+    }
+  ],
+  "best_candidate": "Candidate 1",
+  "best_candidate_filename": "resume1.pdf"
+}
+```
